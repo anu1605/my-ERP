@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 # Task Tracker
 
-**Author:** Anushka Tyagi
+**Author:** Anushka Tyagi  
+**Demo:** https://powder-turns-finds-centuries.trycloudflare.com/
 
 ## Description
 
@@ -23,7 +23,7 @@ data integrity, recovery after sudden shutdown, and straightforward maintenance.
 - **Tasks** — title, description, status (`pending`/`in_progress`/`completed`/
   `cancelled`), optional priority, category/tag, and deadline. Automatic
   created/updated timestamps and a stable task detail URL.
-- **Completed tasks** — *Mark as done* stops any running timer and moves the task
+- **Completed tasks** — _Mark as done_ stops any running timer and moves the task
   to a separate **Completed** list. Completed tasks cannot be started and are
   excluded from active listings and Slow Performance tracking.
 - **Timer** — green **Start** / red **Stop**. Only one timer can run globally,
@@ -37,8 +37,8 @@ data integrity, recovery after sudden shutdown, and straightforward maintenance.
 - **Comments / work notes** — multiple notes per task, grouped by day, with kinds
   (`progress`, `blocker`, `decision`, `general`) and escaped output.
 - **Per-task To-do tab** — Google Keep-style checklist with square checkboxes,
-  inline add field, paste-to-split, drag-to-reorder, a *Marked as done* section,
-  and *Add to comment* to move checked items into task comments.
+  inline add field, paste-to-split, drag-to-reorder, a _Marked as done_ section,
+  and _Add to comment_ to move checked items into task comments.
 - **ZIP attachments** — validated server-side (extension, MIME, ZIP signature,
   entry count, per-entry size, total size, compression ratio, encryption), stored
   under `storage/uploads/` with a random filename, and downloaded only through a
@@ -68,6 +68,3 @@ data integrity, recovery after sudden shutdown, and straightforward maintenance.
 Latest migration: `006_task_todo_items.sql`.
 
 Run `php database/migrate.php` after updating to apply pending migrations.
-=======
-# my-ERP
->>>>>>> 2e07c57ac8eb2e1b1f6fd596338e167077689de2
