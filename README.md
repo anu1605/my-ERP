@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Task Tracker
 
 **Author:** Anushka Tyagi
@@ -67,3 +68,6 @@ data integrity, recovery after sudden shutdown, and straightforward maintenance.
 Latest migration: `006_task_todo_items.sql`.
 
 Run `php database/migrate.php` after updating to apply pending migrations.
+=======
+# my-ERP
+>>>>>>> 2e07c57ac8eb2e1b1f6fd596338e167077689de2
