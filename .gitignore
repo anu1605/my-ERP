@@ -1,0 +1,12 @@
+/.env
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/temp/*
+!/storage/temp/.gitkeep
+/vendor/
+composer.lock
+*.log
+.DS_Store
+Thumbs.db
